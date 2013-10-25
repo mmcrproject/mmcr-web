@@ -1,0 +1,111 @@
+/*** from gary ***/
+
+#contentSelectorDiv #contentSelectorTable td {
+	width: 75px;
+}
+
+#contentSelectorDiv{
+	width: 500px;
+	margin-left: auto;
+	margin-right:auto;	
+}
+
+#contentSelectorDiv #contentSelectorTable td {
+	width: 75px;
+	color: white;
+	text-align: center;
+}
+
+#contentSelectorDiv #contentSelectorTable .space {
+	width: 0px;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector1 {
+	background: #eb958f;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector2 {
+	background: #339933;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector3 {
+	background: #8a572a;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector4 {
+	background:  #dc5d1d;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector5 {
+	background: #502982;
+}
+
+#contentSelectorDiv #contentSelectorTable #contentSelector6 {
+	background: #245371;
+}
+
+#content .contentLeftImage {
+	display: inline;
+	float: left;
+	height: 50px;
+	margin: 0px 20px;
+}
+
+#content .contentRightImage {
+	display: inline;
+	float: right;
+	height: 50px;
+	margin: 0px 20px;
+}
+
+#content .contentHeadline {
+	margin-left: 20px;
+	font-weight: bold;
+	color: #d72c20;
+	font-size: 20px;
+}
+
+/*** /from gary ***/
+
+#headerImage {
+	background:#CCC url('../img/header1-1500.jpg') no-repeat right bottom;
+	height: 500px;
+	overflow: hidden;
+	z-index: 60;
+	background-size: cover;
+	color: white;
+}
+
+#headerImage span.header{
+	font-size: 5em;
+	margin: auto;
+	width: 8em;
+	display: block;
+	margin-top: 378px;
+}
+
+#siteDescription{
+	text-align: center;	
+	margin:100px auto;		
+	display: block;
+	font-size:1.4em;
+	width: 98%;
+}
+
+
+@media screen and (min-width: 1400px) {
+	#siteDescription{
+		font-size:2em;
+		margin:150px auto;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#siteDescription{
+		text-align: center;	
+		margin:100px auto;		
+		display: block;
+		font-size:1.4em;
+		width: 98%;
+	}
+}
