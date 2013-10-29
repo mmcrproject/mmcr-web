@@ -154,8 +154,6 @@ h1, .header {
 	}
 }
 
-
-
 /* Media queries */
 @media screen and (max-width: 850px) {
 	
@@ -204,7 +202,7 @@ h1, .header {
 	
 	#siteDescription{
 		text-align: center;	
-		margin:70px auto;		
+		margin:50px auto;		
 		display: block;
 		font-size:1.2em;
 		width: 95%;
@@ -229,15 +227,7 @@ h1, .header {
 	
 }
 
-
-/* Media queries */
 @media screen and (max-width: 450px) {
-	
-	#headerImage {
-		height: 200px;
-		background-size: 643px;
-	}
-	
 	#headerImage span.header{
 		position: relative;
 		top: 160px;

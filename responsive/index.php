@@ -36,39 +36,30 @@
 <span id="siteDescription" class="bold">Mid-Michigan Cat Rescue is dedicated to promoting the health and happiness of our cats and the humans who adopt them.</span>
 
 
-<div class="clear spacer"></div>
+<div class="clear"></div>
 
 <div id="contentSelectorDiv">
-	<table id="contentSelectorTable">
-		<tr>
-			<td id="contentSelector1">
-				<span>Adopt</span>
-			</td>
-			<td class="space"></td>
-			<td id="contentSelector2">
-				<span>Donate</span>
-			</td>
-			<td class="space"></td>
-			<td id="contentSelector3">
-				<span>Volunteer</span>
-			</td>
-			<td class="space"></td>
-			<td id="contentSelector4">
-				<span>How You Can Help</span>
-			</td>
-			<td class="space"></td>
-			<td id="contentSelector5">
-				<span>What We Do</span>
-			</td>
-			<td class="space"></td>
-			<td id="contentSelector6">
-				<span>Who We Are</span>
-			</td>
-		</tr>
-	</table>
+	<div id="contentSelector1" class="bold">
+		<span>Adopt</span>
+	</div>
+	<div id="contentSelector2">
+		<span class="bold">Donate</span>
+	</div>
+	<div id="contentSelector3">
+		<span class="bold">Volunteer</span>
+	</div>
+	<div id="contentSelector4">
+		<span class="bold">How You Can Help</span>
+	</div>
+	<div id="contentSelector5">
+		<span class="bold">What We Do</span>
+	</div>
+	<div id="contentSelector6">
+		<span class="bold">Who We Are</span>
+	</div>
 </div>
 
-<div class="clear spacer"></div>
+<div class="clear"></div>
 
 <div id="content">
 
@@ -76,7 +67,7 @@
 		<div class="contentHeadline">
 			<span>Headline One</span>
 		
-<div class="clear spacer"></div>
+<div class="clear"></div>
 
 		</div>
 		<div class="contentStory">
@@ -85,13 +76,13 @@
 		</div>
 	</div>
 
-<div class="clear spacer"></div>
+<div class="clear"></div>
 	
 	<div class="contentItem">
 		<div class="contentHeadline">
 			<span>Headline Two Special Stuff</span>
 			
-<div class="clear spacer"></div>
+<div class="clear"></div>
 			
 		</div>
 		<div class="contentStory">
@@ -100,13 +91,13 @@
 		</div>
 	</div>
 
-<div class="clear spacer"></div>
+<div class="clear"></div>
 	
 	<div class="contentItem">
 		<div class="contentHeadline">
 			<span>This is Headline Three</span>
 			
-<div class="clear spacer"></div>
+<div class="clear"></div>
 
 		</div>
 		<div class="contentStory">

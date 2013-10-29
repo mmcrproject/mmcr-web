@@ -1,46 +1,41 @@
-/*** from gary ***/
-
-#contentSelectorDiv #contentSelectorTable td {
-	width: 75px;
-}
-
 #contentSelectorDiv{
-	width: 500px;
+	width: 75%;
 	margin-left: auto;
 	margin-right:auto;	
 }
 
-#contentSelectorDiv #contentSelectorTable td {
-	width: 75px;
+#contentSelectorDiv  div {
 	color: white;
 	text-align: center;
+	padding: 30px;
+	float: left;
+	max-width: 70px;
+}
+#contentSelectorDiv div span {
+	height: 20px;
 }
 
-#contentSelectorDiv #contentSelectorTable .space {
-	width: 0px;
-}
-
-#contentSelectorDiv #contentSelectorTable #contentSelector1 {
+#contentSelectorDiv  #contentSelector1 {
 	background: #eb958f;
 }
 
-#contentSelectorDiv #contentSelectorTable #contentSelector2 {
+#contentSelectorDiv  #contentSelector2 {
 	background: #339933;
 }
 
-#contentSelectorDiv #contentSelectorTable #contentSelector3 {
+#contentSelectorDiv  #contentSelector3 {
 	background: #8a572a;
 }
 
-#contentSelectorDiv #contentSelectorTable #contentSelector4 {
+#contentSelectorDiv  #contentSelector4 {
 	background:  #dc5d1d;
 }
 
-#contentSelectorDiv #contentSelectorTable #contentSelector5 {
+#contentSelectorDiv  #contentSelector5 {
 	background: #502982;
 }
 
-#contentSelectorDiv #contentSelectorTable #contentSelector6 {
+#contentSelectorDiv  #contentSelector6 {
 	background: #245371;
 }
 
@@ -65,8 +60,6 @@
 	font-size: 20px;
 }
 
-/*** /from gary ***/
-
 #headerImage {
 	background:#CCC url('../img/header1-1500.jpg') no-repeat right bottom;
 	height: 500px;
@@ -86,7 +79,7 @@
 
 #siteDescription{
 	text-align: center;	
-	margin:100px auto;		
+	margin:85px auto;		
 	display: block;
 	font-size:1.4em;
 	width: 98%;
@@ -107,5 +100,21 @@
 		display: block;
 		font-size:1.4em;
 		width: 98%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	
+	#headerImage {
+		height: 200px;
+		background-size: 643px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	
+	#headerImage {
+		height: 200px;
+		background-size: 643px;
 	}
 }
