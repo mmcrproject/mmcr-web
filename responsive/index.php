@@ -39,26 +39,26 @@
 <div class="clear"></div>
 
 <div id="contentSelectorDiv">
-	<div id="contentSelector1" class="bold">
+	<div class="contentSelector bold extraPadding redbg">
 		<span>Adopt</span>
 	</div>
-	<div id="contentSelector2">
-		<span class="bold">Donate</span>
+	<div class="contentSelector bold extraPadding greenbg">
+		<span>Donate</span>
 	</div>
-	<div id="contentSelector3">
-		<span class="bold">Volunteer</span>
+	<div class="contentSelector bold extraPadding brownbg">
+		<span>Volunteer</span>
 	</div>
-	<div id="contentSelector4">
-		<span class="bold">How You Can Help</span>
+	<div class="contentSelector bold orangebg">
+		<span>How You Can Help</span>
 	</div>
-	<div id="contentSelector5">
-		<span class="bold">What We Do</span>
+	<div class="contentSelector bold purplebg">
+		<span>What We Do</span>
 	</div>
-	<div id="contentSelector6">
-		<span class="bold">Who We Are</span>
+	<div class="contentSelector bold bluebg">
+		<span>Who We Are</span>
 	</div>
 </div>
-
+	
 <div class="clear"></div>
 
 <div id="content">
@@ -67,8 +67,6 @@
 		<div class="contentHeadline">
 			<span>Headline One</span>
 		
-<div class="clear"></div>
-
 		</div>
 		<div class="contentStory">
 			<img src="./img/wordpress.png" class="contentLeftImage"></img>
@@ -76,13 +74,9 @@
 		</div>
 	</div>
 
-<div class="clear"></div>
-	
 	<div class="contentItem">
 		<div class="contentHeadline">
 			<span>Headline Two Special Stuff</span>
-			
-<div class="clear"></div>
 			
 		</div>
 		<div class="contentStory">
@@ -91,14 +85,10 @@
 		</div>
 	</div>
 
-<div class="clear"></div>
-	
 	<div class="contentItem">
 		<div class="contentHeadline">
 			<span>This is Headline Three</span>
 			
-<div class="clear"></div>
-
 		</div>
 		<div class="contentStory">
 			<img src="./img/twitter.png" class="contentLeftImage"></img>

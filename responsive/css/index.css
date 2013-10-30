@@ -1,42 +1,30 @@
-#contentSelectorDiv{
-	width: 75%;
-	margin-left: auto;
-	margin-right:auto;	
-}
-
-#contentSelectorDiv  div {
+div.contentSelector {
+	display:inline-block;
+	vertical-align: middle;
 	color: white;
 	text-align: center;
-	padding: 30px;
-	float: left;
-	max-width: 70px;
+	letter-spacing:1px;
+	padding:25px 20px;
+	width:80px;
+	margin-top:5px;
+	cursor: pointer;
 }
-#contentSelectorDiv div span {
-	height: 20px;
+		
+#contentSelectorDiv {
+	width: 735px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-#contentSelectorDiv  #contentSelector1 {
-	background: #eb958f;
-}
-
-#contentSelectorDiv  #contentSelector2 {
-	background: #339933;
-}
-
-#contentSelectorDiv  #contentSelector3 {
-	background: #8a572a;
+		
+div.contentSelector.extraPadding {
+	padding: 35px 20px;
 }
 
-#contentSelectorDiv  #contentSelector4 {
-	background:  #dc5d1d;
-}
-
-#contentSelectorDiv  #contentSelector5 {
-	background: #502982;
-}
-
-#contentSelectorDiv  #contentSelector6 {
-	background: #245371;
+#content{
+	width: 984px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;	
 }
 
 #content .contentLeftImage {
@@ -58,6 +46,12 @@
 	font-weight: bold;
 	color: #d72c20;
 	font-size: 20px;
+}
+
+.contentItem{
+	width: 33%;
+	display: inline;
+	float: left;
 }
 
 #headerImage {
@@ -94,6 +88,10 @@
 }
 
 @media screen and (max-width: 990px) {
+	#headerImage span.header{
+		margin-top: 50px;
+	}
+
 	#siteDescription{
 		text-align: center;	
 		margin:100px auto;		
@@ -101,9 +99,76 @@
 		font-size:1.4em;
 		width: 98%;
 	}
+	
+	#content{
+		width: 848px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#headerImage span.header{
+		margin-top: 220px;
+	}
+	#siteDescription{
+	margin:60px auto;		
+	}
+	#content{
+		width: 750px;
+	}
 }
 
 @media screen and (max-width: 750px) {
+	#headerImage span.header{
+		font-size: 4em;
+	}
+
+	#headerImage span.header{
+		margin-top: -60px;
+	}
+	
+	#headerImage {
+		height: 200px;
+		background-size: 643px;
+	}
+	#siteDescription{
+	margin:40px auto;		
+	}
+	#contentSelectorDiv{
+		width: 366px;
+	}
+	#content{
+		width: 650px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#content{
+		width: 450px;
+	}
+	#content .contentItem{
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#contentSelectorDiv{
+		width: 366px;
+	}
+	
+	#contentSelectorDiv #contentSelectorTable td{
+	width: 70px;
+	}
+	
+	#content{
+	width: 360px;
+	}
+	
+	#content .contentItem{
+		display: block;
+		clear: both;
+	}
 	
 	#headerImage {
 		height: 200px;
@@ -111,10 +176,8 @@
 	}
 }
 
-@media screen and (max-width: 450px) {
-	
-	#headerImage {
-		height: 200px;
-		background-size: 643px;
+@media screen and (max-width: 385px) {
+	#contentSelectorDiv{
+		width: 244px;
 	}
 }
