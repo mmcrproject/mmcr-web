@@ -10,6 +10,14 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
 }
 
+a{
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
 .clear {
 	clear: both;
 }
@@ -72,6 +80,14 @@ h1,h2,h3,h4,h5,h6{
 
 .greenbg {
 	background-color: #339933;
+}
+
+.offwhite{
+	background-color: #e9e9e9;
+}
+
+.offwhitebg{
+	background-color: #e9e9e9;
 }
 
 h1, .header {
@@ -140,6 +156,49 @@ h1, .header {
 	cursor: pointer;
 }
 
+#footer{
+	border-top: 3px solid #cccccc;
+	margin-top: 50px;
+	padding: 40px 20px 20px 20px;
+}
+
+#sitemap{
+	margin-left: 10%;
+	width: 60%;
+	display: inline;
+	float: left;
+}
+
+#sitemap .sitemapColumn{
+	width: 33%;
+	display: inline;
+	float: left;
+}
+
+#contactform {
+	display: inline;
+	width: 30%;
+	float: right;
+}
+
+#contactBlurb {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+#contactBlurb div {
+	margin: 0px 5px;
+	display: inline;
+	float: left;
+}
+
+/********************************************************
+ *******************Media queries***********************
+********************************************************/
+
 @media screen and (max-width: 990px) {
 	#headerImage {
 		height: 350px;
@@ -154,7 +213,6 @@ h1, .header {
 	}
 }
 
-/* Media queries */
 @media screen and (max-width: 850px) {
 	
 	#headerImage {

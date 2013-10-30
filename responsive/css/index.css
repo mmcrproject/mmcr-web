@@ -14,42 +14,49 @@ div.contentSelector {
 	width: 735px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 65px;
 }
 		
 div.contentSelector.extraPadding {
 	padding: 35px 20px;
 }
 
-#content{
+.content{
 	width: 984px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;	
 }
 
-#content .contentLeftImage {
+.content .contentLeftImage {
 	display: inline;
 	float: left;
 	height: 50px;
 	margin: 0px 20px;
 }
 
-#content .contentRightImage {
+.content .contentRightImage {
 	display: inline;
 	float: right;
 	height: 50px;
 	margin: 0px 20px;
 }
 
-#content .contentHeadline {
+.content .contentHeadline {
 	margin-left: 20px;
 	font-weight: bold;
 	color: #d72c20;
 	font-size: 20px;
 }
 
-.contentItem{
+.contentItemThreeColumn{
 	width: 33%;
+	display: inline;
+	float: left;
+}
+
+.contentItemTwoColumn{
+	width: 50%;
 	display: inline;
 	float: left;
 }
@@ -79,6 +86,66 @@ div.contentSelector.extraPadding {
 	width: 98%;
 }
 
+#adoptSelector{ /** Red **/
+	color: #d72c20;
+	background-color: white;
+}
+
+#adoptSelector:hover, #adoptSelector.clicked{
+	color: white;
+	background-color: #d72c20;
+}
+
+#donateSelector{ /** Blue **/
+	color: #245371;
+	background-color: white;
+}
+
+#donateSelector:hover, #donateSelector.clicked{
+	color: white;
+	background-color: #245371;
+}
+
+#volunteerSelector{ /** MMCR Brown **/
+	color: #8a572a;
+	background-color: white;
+}
+
+#volunteerSelector:hover, #volunteerSelector.clicked{
+	color: white;
+	background-color: #8a572a;
+}
+
+#howyoucanhelpSelector{ /** Orange **/
+	color: #dc5d1d;
+	background-color: white;
+}
+
+#howyoucanhelpSelector:hover, #howyoucanhelpSelector.clicked{
+	color: white;
+	background-color: #dc5d1d;
+}
+
+#whatwedoSelector{ /** Purple **/
+	color: #502982;
+	background-color: white;
+}
+
+#whatwedoSelector:hover, #whatwedoSelector.clicked{
+	color: white;
+	background-color: #502982;
+}
+
+#whoweareSelector{ /** Blue **/
+	color: #245371;
+	background-color: white;
+}
+
+#whoweareSelector:hover, #whoweareSelector.clicked{
+	color: white;
+	background-color: #245371;
+}
+
 
 @media screen and (min-width: 1400px) {
 	#siteDescription{
@@ -100,19 +167,25 @@ div.contentSelector.extraPadding {
 		width: 98%;
 	}
 	
-	#content{
+	.content{
 		width: 848px;
 	}
 }
 
 @media screen and (max-width: 850px) {
 	#headerImage span.header{
-		margin-top: 220px;
+		font-size: 4em;
+	}
+	#siteDescription{
+		font-size:1.2em;
+	}
+	#headerImage span.header{
+		margin-top: 250px;
 	}
 	#siteDescription{
 	margin:60px auto;		
 	}
-	#content{
+	.content{
 		width: 750px;
 	}
 }
@@ -128,7 +201,7 @@ div.contentSelector.extraPadding {
 	
 	#headerImage {
 		height: 200px;
-		background-size: 643px;
+		background-size: cover;
 	}
 	#siteDescription{
 	margin:40px auto;		
@@ -136,16 +209,23 @@ div.contentSelector.extraPadding {
 	#contentSelectorDiv{
 		width: 366px;
 	}
-	#content{
+	.content{
 		width: 650px;
 	}
 }
 
 @media screen and (max-width: 680px) {
-	#content{
+	#headerImage span.header{
+		font-size: 3em;
+		margin-top: -50px;
+	}	
+	#siteDescription{
+		font-size:1em;
+	}
+	.content{
 		width: 450px;
 	}
-	#content .contentItem{
+	.content .contentItem{
 		width: 100%;
 		display: block;
 		clear: both;
@@ -153,6 +233,10 @@ div.contentSelector.extraPadding {
 }
 
 @media screen and (max-width: 480px) {
+	#headerImage span.header{
+		font-size: 2.2em;
+		margin-top: -40px;
+	}	
 	#contentSelectorDiv{
 		width: 366px;
 	}
@@ -161,11 +245,11 @@ div.contentSelector.extraPadding {
 	width: 70px;
 	}
 	
-	#content{
+	.content{
 	width: 360px;
 	}
 	
-	#content .contentItem{
+	.content .contentItem{
 		display: block;
 		clear: both;
 	}
@@ -176,7 +260,17 @@ div.contentSelector.extraPadding {
 	}
 }
 
+@media screen and (max-width: 450px) {
+	#headerImage span.header{
+		margin-top: -10px;
+	}	
+}
+
 @media screen and (max-width: 385px) {
+	#headerImage span.header{
+		font-size: 2em;
+		margin-top: 0px;
+	}	
 	#contentSelectorDiv{
 		width: 244px;
 	}
